@@ -36,7 +36,7 @@ struct node1 *a = NULL;
 a = ( struct node1 *)malloc(sizeof(struct node1));
 a->data=27;
 a->next=NULL;
-head->next=a;
+(*head).next=a;
 
 struct node1 *b = NULL;
 b = (struct node1*)malloc(sizeof( struct node1));
