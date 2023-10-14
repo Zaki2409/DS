@@ -68,18 +68,6 @@ void insert_end ( struct node * head , int data) {
     
 }
 
-void insert_at_beg(struct node * head , int data){
-    
-    struct node * ptr =NULL;
-    ptr = (struct node *)malloc(sizeof(struct node));
-    (* ptr).data = data;
-    (* ptr).next = NULL;
-    (* ptr).next = head;
-    head = ptr;
-    
-    printf("\n%d" , (* ptr).data);
-}
-
 int main() {
     //printf("check");
     struct node *head = NULL;
@@ -99,19 +87,16 @@ int main() {
     (* b).data=27;
     (* b).next=NULL;
     (* a).next = b;
-    
      //printf("check");
-   insert_at_beg(head , 23);
-    insert_at_beg(head , 24);
-    //printf("check");
+   
+    
     
     insert_end( head , 29);
-    
+    count_Node(head);
     // printf("check");
     printf("\n");
     //printf("check");
     display(head);
-    count_Node(head);
     
     
     return 0;
