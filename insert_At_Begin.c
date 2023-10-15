@@ -117,3 +117,65 @@ int main() {
     return 0;
 }
 
+
+
+
+// // Online C compiler to run C program online
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// struct node {
+//   int data;
+//   struct node * next;
+// };
+
+// struct node * insert_Beg(struct node * head , int data) {
+//     struct node * ptr = NULL;
+//     ptr = (struct node *)malloc(sizeof(struct node));
+//     (* ptr).data = data;
+//     (* ptr).next = NULL;
+//     (* ptr).next = head;
+//     head = ptr;
+//     return head;
+    
+    
+// }
+// void display(struct node * head){
+//     if(head ==NULL) {
+//         printf("liunked list is emoty");
+//     }else {
+//         struct node * temp;
+//         temp = head;
+//         while( temp!= NULL) {
+//             printf("\n%d" , (* temp).data);
+//             temp = (* temp).next;
+//         }
+//     }
+    
+    
+// }
+
+// int main() {
+//  struct node * head = NULL;
+//  head = (struct node *)malloc(sizeof(struct node));
+//  (* head).data = 25;
+//  (* head).next = NULL;
+ 
+//  struct node * a = NULL;
+//  a = (struct node *)malloc(sizeof(struct node));
+//  (* a).data=26;
+//  (* a).next=NULL;
+//  (* head).next = a;
+//   struct node * b = NULL;
+//   b = (struct node *)malloc(sizeof(struct node));
+//   (* b).data = 27;
+//   (* b).next = NULL;
+//   (* a).next =b;
+
+//   head = insert_Beg(head , 24);
+//     head = insert_Beg(head , 23);
+//   display(head);
+  
+
+//     return 0;
+// }
