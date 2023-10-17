@@ -99,18 +99,20 @@ head = (struct node * )malloc(sizeof(struct node));
 
 //printf("check");
 
-head = del_first(head);
-printf("check");
+
+//printf("check");
 head = at_beg( head , 24);
 at_pos(head , 1 , pos );
 at_end(head , 26);
 
 //printf("check");
 
+
 //printf("check");
 //printf("before deleting");
 display(head);
-printf("check");
+//printf("check");
+head = del_first(head);
 
 //printf("after deleting");
 
