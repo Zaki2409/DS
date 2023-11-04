@@ -94,7 +94,7 @@ struct node * head = NULL;
 head = (struct node * )malloc(sizeof(struct node));
 ( * head).data =25;
 (* head).next =NULL;
-//printf("check");
+//printf("check");   
 
 
 //printf("check");
